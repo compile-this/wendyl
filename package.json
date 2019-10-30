@@ -1,0 +1,53 @@
+{
+  "name": "@compile-this/wendyl",
+  "version": "0.0.1-alpha1",
+  "description": "Wendyl is a cheery little fella that lets your start all your micro-frontends at once and stitches them together with a reverse proxy.",
+  "main": "dist/wendyl.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "jest"
+  },
+  "directories": {
+    "lib": "dist/",
+    "bin": "dist/bin/"
+  },
+  "files": [
+    "dist/"
+  ],
+  "bin": {
+    "wendyl": "./dist/bin/wendyl-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compile-this/wendyl.git"
+  },
+  "keywords": [
+    "micro-frontend"
+  ],
+  "author": "Adam Thornburn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compile-this/wendyl/issues"
+  },
+  "homepage": "https://github.com/compile-this/wendyl#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/fs-extra": "^8.0.1",
+    "@types/yargs": "^13.0.3",
+    "rollup": "^1.26.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "shelljs": "^0.8.3",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.1.0",
+    "redbird": "^0.9.1",
+    "yargs": "^14.2.0"
+  }
+}
