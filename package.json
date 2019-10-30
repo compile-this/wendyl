@@ -1,6 +1,6 @@
 {
   "name": "@compile-this/wendyl",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha1",
   "description": "Wendyl is a cheery little fella that lets your start all your micro-frontends at once and stitches them together with a reverse proxy.",
   "main": "dist/wendyl.js",
   "scripts": {
