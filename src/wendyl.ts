@@ -85,7 +85,7 @@ function createTasks(tasks: Task[], applications: Applications, parameters) : Ru
     switch (action.type) {
       case ActionType.NPM:
         command = 'npm';
-        args = [ 'run', action.command ].concat(args);
+        args = [ 'run', action.command, '--' ].concat(args);
         break;
 
       case ActionType.SHELL:
