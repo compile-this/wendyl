@@ -1,12 +1,13 @@
 {
   "name": "@compile-this/wendyl",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1",
   "description": "Wendyl is a cheery little fella that lets your start all your micro-frontends at once and stitches them together with a reverse proxy.",
   "main": "dist/wendyl.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "test": "jest"
+    "test": "jest",
+    "release": "standard-version"
   },
   "directories": {
     "lib": "dist/",
@@ -46,6 +47,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "shelljs": "^0.8.3",
+    "standard-version": "^7.0.0",
     "typescript": "^3.6.4"
   },
   "dependencies": {
