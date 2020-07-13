@@ -47,7 +47,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "shelljs": "^0.8.3",
-    "standard-version": "^7.0.0",
+    "standard-version": "^8.0.1",
     "typescript": "^3.6.4"
   },
   "dependencies": {
